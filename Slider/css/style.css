@@ -1,0 +1,31 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100vh;
+}
+
+.interieur{
+    position: relative;
+    float: left;
+    box-sizing: content-box;
+}
+
+.interieur img{
+    display: none;
+    width: 250px;
+    height: 150px;
+}
+
+.interieur .visible{
+    display: inline-block;
+}
+
+.precedente, .suivante{
+    z-index: 100;
+    float: left;
+    margin-top: 65px;
+    position: relative;
+    cursor: pointer;
+    font-size: 1.5em;
+}

@@ -1,0 +1,35 @@
+.lienNav{
+
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-right: 10vw; 
+    }
+    
+    .barreNav{
+        background-color: #444444;
+    }
+    
+    .monParagraphe{
+    
+        margin-top: 20vh;
+    }
+    
+    .contenu2{
+        background-color: royalblue;
+        display: none;
+    }
+    
+    
+    .cercle{
+    
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: saddlebrown;
+        position: fixed;
+        top: 75%;
+        left: 50%;
+        display: none;
+    }
+    

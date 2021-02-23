@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bar{
+    width: 32px;
+    height: 4px;
+    background-color: black;
+    margin: 2px 2px;
+    position: relative;
+}
+
+#bar1{
+    margin-top: 4px;
+}
+
+#bar4{
+    margin-bottom: 4px;
+}
+
+#bar2{
+    width: 24px;
+    align-self: flex-end;
+}
+
+#bar3{
+    width: 24px;
+    align-self: flex-start;
+}
+
+#toggler{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+}

@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.monJeu {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+
+.cellule {
+    width: 100px;
+    height: 100px;
+    margin: 1px;
+    border: 1px solid #333333;
+    cursor: pointer;
+    text-align: center;
+    line-height: 100px;
+    font-size: 5em;
+}
